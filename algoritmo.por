@@ -1,11 +1,16 @@
 programa {
 	funcao inicio(){
-		real notas[3]
+		real notas[3], soma=0, media=0
+		inteiro contador=0
 		escreva("Digite os valores e eu farei a média\n")
 		para (inteiro i=0; i<3; i++) {
 			escreva("> ")
 			leia(notas[i])
+			soma += notas[i]
+			contador++
 		}
+		media = soma/contador
+		escreva("Media: ", media)
 	}
 }
 
