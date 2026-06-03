@@ -1,6 +1,11 @@
 programa {
 	funcao inicio(){
-		escreva("Digite os valores e eu farei a média: ")
+		real notas[3]
+		escreva("Digite os valores e eu farei a média\n")
+		para (inteiro i=0; i<3; i++) {
+			escreva("> ")
+			leia(notas[i])
+		}
 	}
 }
 
@@ -9,7 +14,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 83; 
+ * @POSICAO-CURSOR = 174; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
